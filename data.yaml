@@ -1,11 +1,20 @@
 # Train/val/test sets
 path: ./datasets  # 数据集根目录
-train: train/images  # 训练集图片相对路径
-val: val/images  # 验证集图片相对路径
-test:  # 测试集图片相对路径（可选）
+train: Train/images  # 训练集图片目录
+val: Test/images    # 验证集目录
+test: Test/images   # 测试集目录
 
 # Classes
 names:
-  0: class1  # 替换成你的实际类别名称
-  1: class2
-  # ... 添加更多类别 
+  0: speed_limit_20
+  1: speed_limit_30
+  2: speed_limit_50
+  3: speed_limit_60
+  4: speed_limit_70
+  5: speed_limit_80
+  6: end_speed_limit_80
+  7: speed_limit_100
+  8: speed_limit_120
+  9: no_passing
+  10: no_passing_vehicles_over_3.5_tons
+  # ... 其他类别 ... 
